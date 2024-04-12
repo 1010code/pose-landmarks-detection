@@ -3,7 +3,7 @@
 
 |    Origin    | Pose landmark |    3D landmarks        |
 |--------|---------------|---------------|
-|   ![](./image/test1.png)  |  ![](./screenshot/output.jpg)  |![](./screenshot/output3d.png)|
+|   ![](./image/test1.png)  |  ![](./screenshot/output.jpg)  |[![](./screenshot/output3d.png)](https://1010code.github.io/pose-landmarks-detection/screenshot/output.html)|
 
 
 
