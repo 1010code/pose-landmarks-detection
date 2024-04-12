@@ -5,7 +5,10 @@
 |--------|---------------|---------------|
 |   ![](./image/test1.png)  |  ![](./screenshot/output.jpg)  |![](./screenshot/output3d.png)|
 
-[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)](https://www.youtube.com/watch?v=ek1j272iAmc)
+
+
+https://github.com/1010code/pose-landmarks-detection/assets/20473922/ae0511ec-6cfa-4d29-896b-c561d9695360
+
 
 ## OpenPose
 - Body25
