@@ -20,7 +20,7 @@ mp_drawing_styles = mp.solutions.drawing_styles  # mediapipe 繪圖樣式
 mp_pose = mp.solutions.pose                      # mediapipe 姿勢偵測
 
 # cap = cv2.VideoCapture(0)
-cap = cv2.VideoCapture('./video/upstair.mp4')
+cap = cv2.VideoCapture('./video/walk1.mp4')
 
 # 取得原始影片的 FPS
 original_fps = cap.get(cv2.CAP_PROP_FPS)
@@ -65,8 +65,8 @@ with mp_pose.Pose(
         p2 = [landmarks[kp.RIGHT_KNEE.value].x,landmarks[kp.RIGHT_KNEE.value].y]
         p3 = [landmarks[kp.RIGHT_ANKLE.value].x,landmarks[kp.RIGHT_ANKLE.value].y]
         DR = angle_btn_3points(p1, p2, p3)
-        cv2.putText(img, f'{int(DL)}', (int(landmarks[kp.LEFT_KNEE.value].x*frame_width),int(landmarks[kp.LEFT_KNEE.value].y*frame_height)), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 255), 1, lineType=cv2.LINE_AA)
-        cv2.putText(img, f'{int(DR)}', (int(landmarks[kp.RIGHT_KNEE.value].x*frame_width),int(landmarks[kp.RIGHT_KNEE.value].y*frame_height)), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 255), 1, lineType=cv2.LINE_AA)
+        # cv2.putText(img, f'{int(DL)}', (int(landmarks[kp.LEFT_KNEE.value].x*frame_width),int(landmarks[kp.LEFT_KNEE.value].y*frame_height)), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 255), 1, lineType=cv2.LINE_AA)
+        # cv2.putText(img, f'{int(DR)}', (int(landmarks[kp.RIGHT_KNEE.value].x*frame_width),int(landmarks[kp.RIGHT_KNEE.value].y*frame_height)), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (0, 0, 255), 1, lineType=cv2.LINE_AA)
         ##################
         out.write(img)  # 將畫面寫入 VideoWriter
         cv2.imshow('Preview', img)
