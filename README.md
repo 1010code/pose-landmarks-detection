@@ -25,8 +25,8 @@ https://github.com/1010code/pose-landmarks-detection/assets/20473922/ae0511ec-6c
 
 ## Reference
 - [OpenPose 基於OpenCV DNN 的單人姿態估計](https://www.aiuai.cn/aifarm943.html)
-
-
 - [AlphaPose](https://github.com/Fang-Haoshu/Halpe-FullBody)
 - [OpenPose vs. AlphaPose](https://blog.songhaban.com/2022/02/openpose-vs-alphapose-which-one-is.html)
-
+- [mmpose](https://github.com/open-mmlab/mmpose/tree/main/projects/rtmo)
+- [角度量測1](https://github.com/mansikataria/SquatDetection/tree/main)
+- [角度量測2](https://learnopencv.com/ai-fitness-trainer-using-mediapipe/)
